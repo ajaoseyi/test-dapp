@@ -1,0 +1,90 @@
+@font-face {
+  font-family: gilroy;
+  src: url("./asset/Gilroy-Light.otf");
+}
+
+.connect_wallet{
+  background-color: #219ebc;
+
+}
+.App{
+overflow: hidden;
+color: white;
+
+
+}
+h1{
+   text-shadow: 0 0 80px rgb(192 219 255 / 75%), 0 0 32px rgb(65 120 255 / 24%);
+   margin-top: 116px;
+     background: linear-gradient(to right, #30CFD0, #c43ad6);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+
+
+}
+
+.btn {
+  font-family: sans-serif;
+  font-size: 18px;
+  padding: 8px 12px;
+  margin: 24px 8px 24px 8px;
+  cursor: pointer;
+  border-radius: 4px;
+  transition: all 0.3s ease;
+  border-radius: 50px;
+    transition: all 0.3s ease;
+     color: white;
+  border: 2px double transparent;
+  background-image: linear-gradient(rgb(13, 14, 33), rgb(13, 14, 33)), radial-gradient(circle at left top, rgb(1, 110, 218), rgb(217, 0, 192));
+  background-origin: border-box;
+
+  border: 2px double transparent;
+  background-image: linear-gradient(rgb(13, 14, 33), rgb(13, 14, 33)), radial-gradient(circle at left top, rgb(1, 110, 218), rgb(217, 0, 192));
+  background-origin: border-box;
+  background-clip: padding-box, border-box;}
+
+.btn:hover {
+  transition: all 0.3s ease;
+    box-shadow: rgba(var(--primary-color), 0.5) 0px 0px 20px 0px;
+}
+
+  
+
+.App::before {
+  content: '';
+  background-image: url("./asset/web3background.jpg");
+  background-size: cover;
+
+  height: 100%;
+  width: 100%;
+  position: absolute;
+  z-index: -1;
+}
+.App::before {
+  filter: blur(30px);
+}
+.address{
+  color: white!important;
+}
+h5{
+color: white;
+}
+.container {
+  text-align: center;
+}
+
+.nfts{
+  text-align: center;
+  margin-top: -5em;
+  padding: 0px 17px 0px 17px;
+  font-family: gilroy;
+}
+.nft-container {
+  display: grid;
+  display: -moz-grid;
+  place-content: flex-start;
+  grid-gap: 1em;
+  grid-template-columns: repeat(auto-fill, 195px);
+  font-family: gilroy;
+
+}
